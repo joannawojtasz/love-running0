@@ -186,3 +186,11 @@ hr {
 }
 
 
+/* meetup times*/
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hide;
+}
