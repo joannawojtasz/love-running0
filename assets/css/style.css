@@ -247,7 +247,7 @@ footer {
 #photos > img {
     width: 100%;
 }
-/* For tablet size devices */
+/* for larger to medium screens sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -272,6 +272,14 @@ footer {
         width: 100%;
         float:left;
         padding: 0;
+    }
+
+    #times > div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        height: 150px;
     }
 
     hr {
@@ -315,4 +323,5 @@ footer {
         padding: 0 20px ;
     }
 
+    
 }
